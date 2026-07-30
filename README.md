@@ -317,7 +317,6 @@ The organizers can verify your distance modulus as:
 $$\mu = \texttt{trgb\_app} - \texttt{trgb\_app\_anchor} + 29.397$$
 and reproduce your target TRGB measurement by re-running the notebook with the stated parameters. These parameters are saved and outputted by the notebook.
 
-
 All submitted results will be compiled into the public repository alongside the common dataset and analysis code.
 
 ---

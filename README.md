@@ -317,7 +317,7 @@ The organizers can verify your distance modulus as:
 
 μ = `trgb_app` − `trgb_app_anchor` + 29.397
 
-and reproduce your target TRGB measurement by re-running the notebook with the stated parameters. These parameters are saved and outputted by the notebook.
+and reproduce your target TRGB measurement by re-running the notebook with the stated parameters. These parameters are saved and outputted by the notebook. In your email to the organizers (Siyang, Eleonora, and Jackson), please also include the value of H₀ you find with your TRGB distances.
 
 All submitted results will be compiled into the public repository alongside the common dataset and analysis code.
 

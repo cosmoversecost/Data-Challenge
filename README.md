@@ -193,7 +193,7 @@ Change these values, then re-run from that cell downward: click the parameter ce
 - **Luminosity function and Sobel response (middle panels):** The brightness histogram of selected stars should show a rising trend toward fainter magnitudes (in astronomy, fainter = larger magnitude number, so this means rising toward the right side of the histogram) with a drop at the bright end (left side) — the drop marks the TRGB. The Sobel filter response (the derivative of this histogram) should show a single clear peak at the TRGB location. Multiple peaks of similar height mean the detection is ambiguous; try increasing `tau` (more smoothing) or tightening the color selection.
 - **Bootstrap distribution (right panel):** The distribution of TRGB estimates from repeated resampling should look like a single bell-shaped curve centered on your measurement. A bimodal (two-humped) distribution means the algorithm is jumping between two candidate edges.
 
-The notebook's **Section 9a** contains a formal stability checklist — try `tau` values of 0.05, 0.10, 0.15, and 0.20, and shift `color_lo` and `color_hi` each by ±0.2 mag, checking that the TRGB magnitude does not move by more than ~0.03 mag across these variations. You should run this checklist for each galaxy. A measurement that shifts significantly under small parameter changes should not be reported as your final result without flagging the instability.
+The notebook's **Section 11a** contains a formal stability checklist — try `tau` values of 0.05, 0.10, 0.15, and 0.20, and shift `color_lo` and `color_hi` each by ±0.2 mag, checking that the TRGB magnitude does not move by more than ~0.03 mag across these variations. You should run this checklist for each galaxy. A measurement that shifts significantly under small parameter changes should not be reported as your final result without flagging the instability.
 
 There is no single correct parameter choice. Document your reasoning in the notebook by adding a text cell (click **Insert → Insert Cell Below**, then change the cell type to **Markdown** from the dropdown at the top of the notebook) and writing a brief note explaining your choices.
 
@@ -330,7 +330,7 @@ All submitted results will be compiled into the public repository alongside the 
 | Setup | Install packages; download photometry into `photometry/`; launch Jupyter from top-level folder | Terminal |
 | 1 | Set `TARGET_GALAXY` | TRGB notebook, Section 2 |
 | 2 | Kernel → Restart & Run All | TRGB notebook |
-| 3 | Adjust parameters; inspect plots; run Section 9a stability checks | TRGB notebook, Sections 3, 6, 9a |
+| 3 | Adjust parameters; inspect plots; read Section 11a stability checks | TRGB notebook, Sections 3, 6, 9a |
 | 4 | Check distance result against sanity range (μ ≈ 30–34) | TRGB notebook, Section 8 |
 | 5 | Run Section 10 export cell | TRGB notebook, Section 10 |
 | Repeat 1–5 | For each assigned galaxy | — |

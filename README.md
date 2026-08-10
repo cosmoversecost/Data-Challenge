@@ -330,7 +330,7 @@ All submitted results will be compiled into the public repository alongside the 
 | Setup | Install packages; download photometry into `photometry/`; launch Jupyter from top-level folder | Terminal |
 | 1 | Set `TARGET_GALAXY` | TRGB notebook, Section 2 |
 | 2 | Kernel → Restart & Run All | TRGB notebook |
-| 3 | Adjust parameters; inspect plots; read Section 11a stability checks | TRGB notebook, Sections 3, 6, 9a |
+| 3 | Adjust parameters; inspect plots; read Section 11a stability checks | TRGB notebook, Sections 3, 6, 11a |
 | 4 | Check distance result against sanity range (μ ≈ 30–34) | TRGB notebook, Section 8 |
 | 5 | Run Section 10 export cell | TRGB notebook, Section 10 |
 | Repeat 1–5 | For each assigned galaxy | — |

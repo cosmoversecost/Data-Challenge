@@ -1,0 +1,2 @@
+host,mu,sigma_mu,galaxy_name,trgb_app,trgb_app_anchor,tip_contrast,n_stars,n_faint,phot_source,color_lo_f606w,color_hi_f606w,color_lo_f555w,color_hi_f555w,tau,bin_width,edge_weighting,poisson_floor,scale_factor,mag_bright,mag_faint,n_boot
+n1365,31.3652,0.0833,NGC1365,27.339,25.371,4.91,3957,2530,EDD,1.0,1.5,1.6,2.1,0.05,0.01,hatt,1.0,1.0,,,500
